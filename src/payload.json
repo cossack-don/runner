@@ -1,0 +1,128 @@
+{
+  "JS": {
+    "title": "JavaScript",
+    "module1": {
+      "title":"module-1",
+      "payload": [
+        {
+          "id": 1,
+          "title": "Object.assign()",
+          "description": "Копирует свойства и значения исходного объекта, возвращая при этом новый объект."
+        },
+        {
+          "id": 2,
+          "title": "Object.entries()",
+          "description": "Возвращает многомерный массив, содержащий как ключи, так и значения объекта. Нужно просто передать имя объекта в качестве аргумента для метода"
+        },
+        {
+          "id": 3,
+          "title": "Object.freeze()",
+          "description": "Позволяет заморозить объект, передаваемый ему в качестве аргумента. После этого нельзя будет обновить объект или добавить ему новые свойства."
+        }
+      ]
+    },
+    "module2": {
+      "title":"module-2",
+      "payload": [
+        {
+          "id": 1,
+          "title": "1",
+          "description": "1"
+        },
+        {
+          "id": 2,
+          "title": "2",
+          "description": "2"
+        },
+        {
+          "id": 3,
+          "title": "3",
+          "description": "3"
+        }
+      ]
+    },
+    "module3": {
+      "title":"module-3",
+      "payload": [
+        {
+          "id": 1,
+          "title": "1",
+          "description": "1"
+        },
+        {
+          "id": 2,
+          "title": "2",
+          "description": "2"
+        },
+        {
+          "id": 3,
+          "title": "3",
+          "description": "3"
+        }
+      ]
+    }
+  },
+  "Vue": {
+    "title": "Vue.js v3",
+    "module1": {
+      "title":"module-1",
+      "payload": [
+        {
+          "id": 1,
+          "title": "Object.assign()",
+          "description": "Копирует свойства и значения исходного объекта, возвращая при этом новый объект."
+        },
+        {
+          "id": 2,
+          "title": "Object.entries()",
+          "description": "Возвращает многомерный массив, содержащий как ключи, так и значения объекта. Нужно просто передать имя объекта в качестве аргумента для метода"
+        },
+        {
+          "id": 3,
+          "title": "Object.freeze()",
+          "description": "Позволяет заморозить объект, передаваемый ему в качестве аргумента. После этого нельзя будет обновить объект или добавить ему новые свойства."
+        }
+      ]
+    },
+    "module2": {
+      "title":"module-2",
+      "payload": [
+        {
+          "id": 1,
+          "title": "1",
+          "description": "1"
+        },
+        {
+          "id": 2,
+          "title": "2",
+          "description": "2"
+        },
+        {
+          "id": 3,
+          "title": "3",
+          "description": "3"
+        }
+      ]
+    },
+    "module3": {
+      "title":"module-3",
+      "payload": [
+        {
+          "id": 1,
+          "title": "1",
+          "description": "1"
+        },
+        {
+          "id": 2,
+          "title": "2",
+          "description": "2"
+        },
+        {
+          "id": 3,
+          "title": "3",
+          "description": "3"
+        }
+      ]
+    }
+  }
+}

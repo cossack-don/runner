@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: #e3f4ed;
+  padding: 45px;
+}
+
+li {
+  list-style: none;
+}
+
+.custom-popper {
+  width: 300px;
+  max-width: 300px;
+}
