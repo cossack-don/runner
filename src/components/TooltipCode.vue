@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import {IconCode} from './'
-const props = defineProps<{
-  description?: string
-}>()
+// const props = defineProps<{
+//   description?: string
+// }>()
 
 </script>
 
