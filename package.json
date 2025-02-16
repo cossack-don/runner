@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "ts": "vue-tsc -b"
   },
   "dependencies": {
     "highlight.js": "^11.11.1",

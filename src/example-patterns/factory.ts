@@ -10,7 +10,9 @@ console.log(electronics.getDescription()); // Electronics: Smartphone, Price: $4
 */
 
 // Фабричная функция для создания объектов
-export function PatternFactoryCreateProduct(type, name, price) {
+export function PatternFactoryCreateProduct(type:string, name:string, price:string | number):{
+    type:string, name:string, price:string | number, getDescription: () => string
+} {
     // В зависимости от типа создаем соответствующий объект
     switch (type) {
         case 'book':
@@ -23,7 +25,7 @@ export function PatternFactoryCreateProduct(type, name, price) {
 }
 
 // Функция для создания объекта книги
-function createBook(name, price) {
+function createBook(name:string, price:string | number) {
     return {
         type: 'book',
         name: name,
@@ -35,7 +37,7 @@ function createBook(name, price) {
 }
 
 // Функция для создания объекта электроники
-function createElectronics(name, price) {
+function createElectronics(name:string, price:string | number) {
     return {
         type: 'electronics',
         name: name,
