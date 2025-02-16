@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import {Container, ListItems, TitleText,SyntaxHighlighter} from "./components";
 import PayloadJSON from "./payload.json"
-
 </script>
 
 <template>

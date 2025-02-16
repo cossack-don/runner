@@ -10,7 +10,7 @@ Example
 
 
 export function PatternBuilder() {
-    let product = {};
+    let product:any = {};
 
     function setName(name:string):string {
         product.name = name;
@@ -18,19 +18,19 @@ export function PatternBuilder() {
     }
 
     // Метод для установки цены продукта
-    function setPrice(price) {
+    function setPrice(price:string):string {
         product.price = price;
         return this;
     }
 
     // Метод для установки категории продукта
-    function setCategory(category) {
+    function setCategory(category:string):string {
         product.category = category;
         return this;
     }
 
     // Метод для добавления описания продукта
-    function setDescription(description) {
+    function setDescription(description:any):any {
         product.description = description;
         return this;
     }
