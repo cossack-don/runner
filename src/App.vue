@@ -1,6 +1,12 @@
 <script setup lang="ts">
+import {isRef} from "vue";
 import {Container, ListItems, TitleText,SyntaxHighlighter} from "./components";
 import PayloadJSON from "./payload.json"
+import {PatternBuilder} from './example-patterns/builder'
+
+  const builder = PatternBuilder().setName('Laptop').setPrice(1200).setCategory('Electronics').setDescription('A powerful laptop for work and gaming.').build();
+
+  console.log(isRef(builder),builder)
 </script>
 
 <template>
