@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { TitleText, TooltipInfo} from "./";
+import { TitleText, TooltipInfo, TooltipCode} from "./";
 
 const props = defineProps<{
   list: any
 }>()
-
 </script>
 
 <template>
@@ -12,7 +11,7 @@ const props = defineProps<{
     <li class="li-item" v-for="item in props.list">
       <TitleText style="margin-right: 10px">{{item.title}}</TitleText>
       <TooltipInfo :description="item.description" />
-      <p>Example code</p>
+      <TooltipCode/>
     </li>
   </ul>
 </template>

@@ -47,28 +47,4 @@ import PayloadJSON from "./payload.json"
     <ListItems :list="PayloadJSON.JS.module2.payload"/>
   </Container>
 </Container>
-
-<!--  <code>const userData = {-->
-<!--    name: "John",-->
-<!--    age: 25,-->
-<!--    isOnline: true-->
-<!--    } <br/>-->
-<!--    console.log(Object.entries(userData)); <br/>-->
-<!--    //возвращает: [["name", "John"], ["age", 25], ["isOnline", true]]-->
-<!--  </code>-->
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>

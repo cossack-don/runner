@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import {IconInfo} from './'
 const props = defineProps<{
   description: string
 }>()
@@ -11,9 +12,7 @@ const props = defineProps<{
       placement="right-start"
       :triggers="['hover', 'click']"
   >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" style="width:25px;height:25px;" class="icon-hover">
-      <g id="Bubble_Word_information" data-name="Bubble Word information"><path d="M47 7v28a4 4 0 0 1-4 4H9l-8 6V7a4 4 0 0 1 4-4h38a4 4 0 0 1 4 4z" style="fill:#fc6"/><path d="M47 7c0 30.36.22 28.68-.54 30H23A20 20 0 0 1 3 17V3.54A4 4 0 0 1 5 3h38a4 4 0 0 1 4 4z" style="fill:#ffde76"/><path class="cls-3" d="M26 9a2 2 0 1 1-2.82-1.82A2 2 0 0 1 26 9z"/><path class="cls-4" d="M25.82 9.82a2 2 0 0 1-2.64-2.64 2 2 0 0 1 2.64 2.64z"/><path class="cls-3" d="M29 33a2 2 0 0 1-2 2h-6a2 2 0 0 1 0-4h1V19a2 2 0 0 1-1.41-3.41C21.31 14.85 22 15 24 15a2 2 0 0 1 2 2v14h1a2 2 0 0 1 2 2z"/><path class="cls-4" d="M29 33h-3a2 2 0 0 1-2-2V15a2 2 0 0 1 2 2v14h1a2 2 0 0 1 2 2z"/></g></svg>
-
+    <IconInfo/>
     <template #popper>
       <div>
         <p style="word-break: break-all; padding: 12px">
