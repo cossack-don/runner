@@ -4,6 +4,8 @@ import TooltipInfo from "./TooltipInfo.vue";
 import TooltipCode from "./TooltipCode.vue";
 import ListItems from "./ListItems.vue";
 
+import SyntaxHighlighter from "./SyntaxHighlighter.vue";
+
 import IconCode from "./IconCode.vue";
 import IconInfo from "./IconInfo.vue";
 export {
@@ -13,5 +15,6 @@ export {
     ListItems,
     IconCode,
     IconInfo,
-    TooltipCode
+    TooltipCode,
+    SyntaxHighlighter
 }

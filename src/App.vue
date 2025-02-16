@@ -1,11 +1,16 @@
 <script setup lang="ts">
-import {Container, ListItems, TitleText} from "./components";
+import {Container, ListItems, TitleText,SyntaxHighlighter} from "./components";
 import PayloadJSON from "./payload.json"
+
 </script>
 
 <template>
 <TitleText style="text-align: center" color="red" as="h2">Справочник</TitleText>
 
+  <SyntaxHighlighter language="javascript">
+    const message = 'Hello, highlight.js!';
+    console.log(message);
+  </SyntaxHighlighter>
 <Container row wrap between>
   <Container>
     <TitleText
