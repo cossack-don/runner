@@ -18,6 +18,11 @@
           "id": 3,
           "title": "Object.freeze()",
           "description": "Позволяет заморозить объект, передаваемый ему в качестве аргумента. После этого нельзя будет обновить объект или добавить ему новые свойства."
+        },
+        {
+          "id": 3,
+          "title": "new Proxy()",
+          "description": "-"
         }
       ]
     },
@@ -69,18 +74,78 @@
       "payload": [
         {
           "id": 1,
-          "title": "Object.assign()",
-          "description": "Копирует свойства и значения исходного объекта, возвращая при этом новый объект."
+          "title": "ref",
+          "description": ""
         },
         {
           "id": 2,
-          "title": "Object.entries()",
-          "description": "Возвращает многомерный массив, содержащий как ключи, так и значения объекта. Нужно просто передать имя объекта в качестве аргумента для метода"
+          "title": "reactive",
+          "description": ""
         },
         {
           "id": 3,
-          "title": "Object.freeze()",
-          "description": "Позволяет заморозить объект, передаваемый ему в качестве аргумента. После этого нельзя будет обновить объект или добавить ему новые свойства."
+          "title": "watch",
+          "description": ""
+        },
+        {
+          "id": 4,
+          "title": "computed",
+          "description": ""
+        },
+        {
+          "id": 5,
+          "title": "isRef",
+          "description": ""
+        },
+        {
+          "id": 6,
+          "title": "isReactive",
+          "description": ""
+        },
+        {
+          "id": 7,
+          "title": "defineProps",
+          "description": ""
+        },
+        {
+          "id": 8,
+          "title": "defineEmits",
+          "description": ""
+        },
+        {
+          "id": 9,
+          "title": "defineModel",
+          "description": ""
+        },
+        {
+          "id": 10,
+          "title": "defineExpose",
+          "description": ""
+        },
+        {
+          "id": 11,
+          "title": "nextTick()",
+          "description": ""
+        },
+        {
+          "id": 12,
+          "title": "provide / inject",
+          "description": ""
+        },
+        {
+          "id": 12,
+          "title": "toValue",
+          "description": ""
+        },
+        {
+          "id": 12,
+          "title": "toRefs",
+          "description": ""
+        },
+        {
+          "id": 12,
+          "title": "isProxy",
+          "description": ""
         }
       ]
     },
@@ -120,6 +185,134 @@
         {
           "id": 3,
           "title": "3",
+          "description": "3"
+        }
+      ]
+    }
+  },
+  "Patterns": {
+    "title": "Паттерны",
+    "module1": {
+      "title":"Порождающие",
+      "payload": [
+        {
+          "id": 1,
+          "title": "Фабричный метод(Factory Method)",
+          "description": "-"
+        },
+        {
+          "id": 2,
+          "title": "Абстрактная фабрика(Abstract Factory)",
+          "description": ""
+        },
+        {
+          "id": 3,
+          "title": "Строитель(Builder)",
+          "description": ""
+        },
+        {
+          "id": 4,
+          "title": "Прототип(Prototype)",
+          "description": ""
+        },
+        {
+          "id": 5,
+          "title": "Одиночка(Singleton)",
+          "description": ""
+        }
+      ]
+    },
+    "module2": {
+      "title":"Структурные",
+      "payload": [
+        {
+          "id": 1,
+          "title": "Адаптер(Adapter)",
+          "description": "1"
+        },
+        {
+          "id": 2,
+          "title": "Мост(Bridge)",
+          "description": "2"
+        },
+        {
+          "id": 3,
+          "title": "Компановщик(Composite)",
+          "description": "3"
+        },
+        {
+          "id": 4,
+          "title": "Декоратор(Decorator)",
+          "description": "3"
+        },
+        {
+          "id": 5,
+          "title": "Фасад(Facade)",
+          "description": "3"
+        },
+        {
+          "id": 6,
+          "title": "Легковес(Flyweight)",
+          "description": "3"
+        },
+        {
+          "id": 7,
+          "title": "Заместитель(Proxy)",
+          "description": "3"
+        }
+      ]
+    },
+    "module3": {
+      "title":"Поведенческие",
+      "payload": [
+        {
+          "id": 1,
+          "title": "Цепочка обязанностей(Chain of Responsibility)",
+          "description": "1"
+        },
+        {
+          "id": 2,
+          "title": "Команда(Command)",
+          "description": "2"
+        },
+        {
+          "id": 3,
+          "title": "Итератор(Iterator)",
+          "description": "3"
+        },
+        {
+          "id": 4,
+          "title": "Посредник(Mediator)",
+          "description": "3"
+        },
+        {
+          "id": 5,
+          "title": "Снимок(Memento)",
+          "description": "3"
+        },
+        {
+          "id": 6,
+          "title": "Наблюдатель(Observer)",
+          "description": "3"
+        },
+        {
+          "id": 7,
+          "title": "Состояние(State)",
+          "description": "3"
+        },
+        {
+          "id": 8,
+          "title": "Стратегия(Strategy)",
+          "description": "3"
+        },
+        {
+          "id": 9,
+          "title": "Шаблонный метод(Template Method)",
+          "description": "3"
+        },
+        {
+          "id": 10,
+          "title": "Посетитель(Visitor)",
           "description": "3"
         }
       ]

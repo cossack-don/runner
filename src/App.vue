@@ -16,6 +16,9 @@ import {PatternBuilder} from './example-patterns/builder'
     const message = 'Hello, highlight.js!';
     console.log(message);
   </SyntaxHighlighter>
+
+  <TitleText style="text-align: center" color="red" as="h2">JavaScript</TitleText>
+
 <Container row wrap between>
   <Container>
     <TitleText
@@ -46,15 +49,75 @@ import {PatternBuilder} from './example-patterns/builder'
     </TitleText>
     <ListItems :list="PayloadJSON.JS.module3.payload"/>
   </Container>
-
-  <Container>
-    <TitleText
-        style="margin-bottom: 20px"
-        color="blue"
-        as="h2">
-      {{PayloadJSON.JS.module2.title}}
-    </TitleText>
-    <ListItems :list="PayloadJSON.JS.module2.payload"/>
-  </Container>
 </Container>
+
+  <TitleText style="text-align: center" color="red" as="h2">Vue.js v3</TitleText>
+
+
+  <Container row wrap between>
+    <Container>
+      <TitleText
+          style="margin-bottom: 20px"
+          color="blue"
+          as="h2">
+        {{PayloadJSON.Vue.module1.title}}
+      </TitleText>
+      <ListItems :list="PayloadJSON.Vue.module1.payload"/>
+    </Container>
+
+    <Container>
+      <TitleText
+          style="margin-bottom: 20px"
+          color="blue"
+          as="h2">
+        {{PayloadJSON.Vue.module2.title}}
+      </TitleText>
+      <ListItems :list="PayloadJSON.JS.module2.payload"/>
+    </Container>
+
+    <Container>
+      <TitleText
+          style="margin-bottom: 20px"
+          color="blue"
+          as="h2">
+        {{PayloadJSON.Vue.module3.title}}
+      </TitleText>
+      <ListItems :list="PayloadJSON.JS.module3.payload"/>
+    </Container>
+  </Container>
+
+
+  <TitleText style="text-align: center" color="red" as="h2">Паттерны</TitleText>
+
+  <Container row wrap between>
+    <Container>
+      <TitleText
+          style="margin-bottom: 20px"
+          color="blue"
+          as="h2">
+        {{PayloadJSON.Patterns.module1.title}}
+      </TitleText>
+      <ListItems :list="PayloadJSON.Patterns.module1.payload"/>
+    </Container>
+
+    <Container>
+      <TitleText
+          style="margin-bottom: 20px"
+          color="blue"
+          as="h2">
+        {{PayloadJSON.Patterns.module2.title}}
+      </TitleText>
+      <ListItems :list="PayloadJSON.Patterns.module2.payload"/>
+    </Container>
+
+    <Container>
+      <TitleText
+          style="margin-bottom: 20px"
+          color="blue"
+          as="h2">
+        {{PayloadJSON.Patterns.module3.title}}
+      </TitleText>
+      <ListItems :list="PayloadJSON.Patterns.module3.payload"/>
+    </Container>
+  </Container>
 </template>
